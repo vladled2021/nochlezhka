@@ -1,0 +1,11 @@
+.numbers__desktop-image {
+    width: 100%;
+    max-width: 1360px;
+    max-height: 720px;
+}
+
+@media screen and (max-width: 700px) {
+    .numbers__desktop-image {
+        display: none;
+    }
+}

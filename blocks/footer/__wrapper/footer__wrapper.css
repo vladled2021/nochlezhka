@@ -1,0 +1,17 @@
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__wrapper {
+    max-width: 1440px;
+    flex-direction: row;
+    background-color: #EBE9ED;
+    align-items: flex-start;
+  }
+}

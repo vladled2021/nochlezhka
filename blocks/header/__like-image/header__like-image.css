@@ -1,0 +1,15 @@
+.header__like-image {
+  max-width: 20px;
+  height: 18px;
+  object-fit: cover;
+  margin: 0;
+  margin-right: 4px;
+}
+
+@media screen and (min-width: 360.98px) {
+  .header__like-image {
+    margin-right: 8px;
+    max-width: 24px;
+    height: 21px;
+  }
+}

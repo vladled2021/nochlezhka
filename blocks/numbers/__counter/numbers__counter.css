@@ -1,0 +1,16 @@
+.numbers__counter {
+    margin: 0;
+    margin-bottom: 8px;
+    line-height: 52px;
+    font-size: 48px;
+    font-weight: 500;
+    color: #3B3748;
+}
+
+@media screen and (max-width: 450px) {
+    .numbers__counter {
+        margin-bottom: 4px;
+        line-height: 36px;
+        font-size: 32px;
+    }
+}

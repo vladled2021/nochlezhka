@@ -1,0 +1,14 @@
+.header__location-button-text {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+}
+
+@media screen and (min-width: 360.98px) {
+  .header__location-button-text {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

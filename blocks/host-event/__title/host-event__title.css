@@ -1,0 +1,35 @@
+.host-event__title {
+  margin: 0 40px 0 0;
+  padding: 0;
+  color: #3b3748;
+  max-width: 420px;
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 52px;
+  letter-spacing: -0.01em;
+  text-transform: lowercase;
+}
+
+@media screen and (max-width: 880px) {
+  .host-event__title {
+    text-transform: lowercase;
+    font-weight: normal;
+    max-width: 262px;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 36px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .host-event__title {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .host-event__title {
+    color: #fff;
+  }
+}

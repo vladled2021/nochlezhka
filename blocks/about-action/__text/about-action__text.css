@@ -1,0 +1,19 @@
+.about-action__text {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 auto 16px;
+}
+
+.about-action__text:last-of-type {
+  margin-bottom: 0;
+}
+
+@media screen and (min-width: 360.98px) {
+  .about-action__text {
+    font-size: 18px;
+    line-height: 24px;
+    width: 100%;
+    margin-bottom: 18px;
+  }
+}

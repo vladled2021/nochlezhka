@@ -1,0 +1,28 @@
+.about-action__learn-more {
+  padding: 12px 20px;
+  border: 2px solid #3B3748;
+  border-radius: 22px;
+  text-decoration: none;
+  color: #3B3748;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 auto 0 0;
+}
+
+@media screen and (min-width: 360.98px) {
+  .about-action__learn-more {
+    padding: 12px 24px;
+    margin: 0 auto;
+    font-size: 18px;
+    line-height: 24px;
+    border-radius: 26px;
+  }
+}
+
+@media screen and (min-width: 768.98px) {
+  .about-action__learn-more {
+    grid-area: 2/2;
+    margin: 0 auto 0 0;
+  }
+}

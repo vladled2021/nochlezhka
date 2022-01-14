@@ -1,0 +1,18 @@
+.about-action__text-container {
+  display: flex;
+  align-content: space-between;
+  flex-direction: column;
+  margin: 12px auto 20px;
+}
+
+@media screen and (min-width: 360.98px) {
+  .about-action__text-container {
+    max-width: 420px;
+  }
+}
+
+@media screen and (min-width: 768.98px) {
+  .about-action__text-container {
+    margin: 8px auto 0;
+  }
+}

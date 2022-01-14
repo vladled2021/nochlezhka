@@ -1,0 +1,15 @@
+.events__link_type_view-all {
+    margin: 32px 0 80px 40px;
+    padding: 12px 24px;
+    width: 192px;
+    color: #FCFAF7;
+    background-color: #7100FF;
+    border: none;
+}
+
+@media screen and (max-width: 700px) {
+    .events__link_type_view-all {
+        margin: 48px 0 40px 20px;
+        padding: 12px 10px;
+    }
+}

@@ -1,0 +1,17 @@
+.host-event {
+  background: #ffd400;
+  color: #3b3748;
+  /* max-width: 1440px; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+}
+
+@media screen and (max-width: 460px) {
+  .host-event {
+    background: #f40934;
+    color: #ffffff;
+  }
+}

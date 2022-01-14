@@ -1,0 +1,11 @@
+.hedonismfest__slider {
+  display: none;
+}
+
+@media screen and (max-width: 460px) {
+  .hedonismfest__slider {
+    display: flex;
+    direction: inherit;
+    justify-content: center;
+  }
+}

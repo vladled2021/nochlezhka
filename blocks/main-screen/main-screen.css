@@ -1,0 +1,20 @@
+.main-screen {
+  min-height: 652px;
+  background-image: url(../../images/first\ screen1.png);
+  background-size: auto;
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 1440px;
+}
+
+@media screen and (min-width: 768.98px) {
+  .main-screen {
+    background-image: url(../../images/first\ screen\ desctop.png);
+    background-size: cover;
+    min-height: 760px;
+  }
+}

@@ -1,0 +1,16 @@
+.events__card-description {
+    margin: 0;
+    margin-top: 8px;
+    line-height: 20px;
+    font-size: 16px;
+    font-weight: 400;
+
+    color: #3B3748;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+           line-clamp: 3; 
+    -webkit-box-orient: vertical;
+}

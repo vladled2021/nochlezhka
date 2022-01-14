@@ -1,0 +1,24 @@
+.hedonismfest {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0;
+  /* max-width: 360px; */
+  background-color: #fcfaf7;
+  color: #3b3748;
+  /* max-width: 1440px; */
+}
+
+/* @media screen and (max-width: 1440px) {
+  .hedonismfest {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .hedonismfest {
+    width: 100%;
+  }
+} */

@@ -1,0 +1,7 @@
+.events__link-arrow {
+    margin-left: 8px;
+    width: 24px;
+    height: 12.59px;
+    background-image: url(../../../images/arrow.svg);
+    object-fit: contain;
+}

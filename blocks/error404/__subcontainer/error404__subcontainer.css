@@ -1,0 +1,5 @@
+.error404__subcontainer {
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+}

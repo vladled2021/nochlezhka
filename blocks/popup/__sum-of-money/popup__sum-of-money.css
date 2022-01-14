@@ -1,0 +1,17 @@
+.popup__sum-of-money {
+  border: 2px solid #3B3748;
+  background-color: rgba(0, 0, 0, 0);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 22px;
+  color: #3B3748;
+}
+
+@media screen and (min-width: 768.98px) {
+  .popup__sum-of-money {
+    border-radius: 26px;
+  }
+}

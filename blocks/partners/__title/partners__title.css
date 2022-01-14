@@ -1,0 +1,17 @@
+.partners__title {
+  margin: 40px 0 12px 20px;
+  padding: 0;
+  text-transform: lowercase;
+  font-size: 32px;
+  line-height: 36px;
+  font-weight: 500;
+  color: #3B3748;
+}
+
+@media screen and (min-width: 768px) {
+  .partners__title {
+    margin: 20px 0 12px 40px;
+    font-size: 48px;
+    line-height: 52px;
+  }
+}

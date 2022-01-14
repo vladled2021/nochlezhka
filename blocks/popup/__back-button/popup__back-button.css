@@ -1,0 +1,9 @@
+.popup__back-button {
+  margin: 88px auto 0;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}

@@ -1,0 +1,40 @@
+.host-event__button {
+  border: 2px solid #3b3748;
+  box-sizing: border-box;
+  border-radius: 26px;
+  color: #3b3748;
+  padding: 10px 22px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  background: none;
+  font-style: normal;
+}
+
+@media screen and (max-width: 500px) {
+  .host-event__button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .host-event__button {
+    width: 180px;
+    color: #fff;
+    padding: 12px 20px;
+    border: 2px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 22px;
+  }
+}
+
+.host-event__button {
+  transition: opacity 0.2s linear;
+  cursor: pointer;
+}
+
+.host-event__button:hover {
+  opacity: 0.5;
+}

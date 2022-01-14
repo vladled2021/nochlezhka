@@ -1,0 +1,18 @@
+.about-action {
+  padding: 40px 20px;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+
+@media screen and (min-width: 768.98px) {
+  .about-action {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, auto);
+    gap: 24px 40px;
+    padding: 0;
+    margin: 0 auto 80px;
+    max-width: 880px;
+  }
+}

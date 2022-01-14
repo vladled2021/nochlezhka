@@ -1,0 +1,6 @@
+.events {
+    background-color: #EBE9ED;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

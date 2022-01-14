@@ -1,0 +1,7 @@
+.events__title_modif_error404 {}
+
+@media screen and (max-width: 450px) {
+  .events__title_modif_error404 {
+    max-width: 320px;
+  }
+}

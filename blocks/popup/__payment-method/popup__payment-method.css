@@ -1,0 +1,14 @@
+.popup__payment-method {
+  margin: 0 auto;
+  border: none;
+  padding: 0;
+  max-width: 320px;
+  width: 100%;
+}
+
+@media screen and (min-width: 768.98px) {
+  .popup__payment-method {
+    padding: 0;
+    max-width: 532px;
+  }
+}

@@ -1,0 +1,23 @@
+.events__like-button {
+    width: 48px;
+    height: 48px;
+
+    position: absolute;
+    top: 8px;
+    right: 8px;
+
+    border-radius: 24px;
+    border: none;
+    background-color: #FCFAF7;
+    ;
+    background-image: url(../../../images/events-like.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    transition: opacity 0.4s linear;   
+}
+
+.events__like-button:hover {
+    opacity: 70%;
+    cursor: pointer;
+}

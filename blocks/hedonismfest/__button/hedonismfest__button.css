@@ -1,0 +1,13 @@
+.hedonismfest__button {
+  background: #96949e;
+  color: #fff;
+  padding: 6px 6px;
+  border: 0;
+  box-sizing: border-box;
+  border-radius: 50%;
+  margin: 0 12px 0 0;
+}
+
+.hedonismfest__button:last-child {
+  margin: 0;
+}

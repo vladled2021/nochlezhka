@@ -1,0 +1,7 @@
+.events__cards-container_modif_error404{}
+
+@media screen and (max-width: 450px) {
+  .events__cards-container_modif_error404 {
+    margin-top: 0;
+  }
+}

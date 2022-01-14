@@ -1,0 +1,10 @@
+.popup__change-city-button {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 12px 20px;
+  border: none;
+  background-color: rgba(0, 0, 0, 0);
+}

@@ -1,0 +1,13 @@
+.host-event__subtitle-paragraph {
+  margin: 8px 0 18px;
+}
+
+.host-event__subtitle-paragraph:last-child {
+  margin: 0;
+}
+
+@media screen and (max-width: 880px) {
+  .host-event__subtitle-paragraph {
+    margin: 0 0 16px;
+  }
+}

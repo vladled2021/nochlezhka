@@ -1,0 +1,7 @@
+.popup__list-item {
+  margin: 0;
+  width: 100%;
+  box-sizing: border-box;
+  color: #3B3748;
+  display: flex;
+}

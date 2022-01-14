@@ -1,0 +1,16 @@
+@media screen and (max-width: 1440px) {
+  .hedonismfest__image {
+    margin: 0;
+    height: 310px;
+    object-fit: cover;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .hedonismfest__image {
+    /* width: 100%; */
+    height: 320px;
+    object-fit: cover;
+    margin: 0 0 12px;
+  }
+}

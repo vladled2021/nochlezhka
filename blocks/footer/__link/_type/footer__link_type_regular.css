@@ -1,0 +1,18 @@
+.footer__link_type_regular {
+  background-image: url("../../../../images/link-icon.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+}
+
+@media screen and (min-width: 900px) {
+  .footer__link_type_regular {
+    background-image: none;
+  }
+  .footer__link_type_regular::after {
+    content: url("../../../../images/link-icon.svg");
+    width: 24px;
+    height: 24px;
+    margin-left: 9px;
+  }
+}

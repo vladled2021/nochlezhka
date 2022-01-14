@@ -1,0 +1,13 @@
+.popup__open-donate-button {
+  margin: 0 auto;
+  max-width: 320px;
+  max-height: 44px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: #7100FF;
+  border-radius: 22px;
+}

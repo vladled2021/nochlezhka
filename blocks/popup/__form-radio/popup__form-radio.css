@@ -1,0 +1,19 @@
+.popup__form-radio {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+.popup__form-radio:checked + .popup__pseudo-item {
+  background-image: url(../../../images/checked.svg);
+}
+
+.popup__form-radio:checked + .popup__pseudo-item_payment {
+  background-image: url(../../../images/radio-checked.svg);
+  width: 24px;
+  height: 24px;
+  background-size: cover;
+}
+

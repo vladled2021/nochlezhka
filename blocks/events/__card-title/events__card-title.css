@@ -1,0 +1,20 @@
+.events__card-title {
+    margin: 0;
+    line-height: 24px;
+    font-size: 24px;
+    font-weight: 500;
+    transition: 0.2s;
+    text-decoration: none;
+    color: #3B3748;
+
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+           line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.events__card-title:hover {
+  opacity: 0.6;
+}

@@ -1,0 +1,16 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 100%;
+  background-color: #FFD400;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    max-width: 100%;
+    background-color: #EBE9ED;
+  }
+}
+

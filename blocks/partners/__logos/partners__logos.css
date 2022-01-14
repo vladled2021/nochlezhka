@@ -1,0 +1,21 @@
+.partners__logos {
+  display: flex;
+  align-items: center;
+  margin: 0 20px 40px 20px;
+  overflow-x: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.partners__logos::-webkit-scrollbar { /* WebKit */
+  width: 0;
+  height: 0;
+}
+
+@media screen and (min-width: 361px) {
+  .partners__logos {
+    margin: 0 40px 80px 40px;
+  }
+}

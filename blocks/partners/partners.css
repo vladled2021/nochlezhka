@@ -1,0 +1,14 @@
+.partners {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  background-color: #EBE9ED;
+  max-width: 100%;
+}
+
+@media screen and (min-width: 361px) {
+  .partners {
+    background-color: #FCFAF7;
+  }
+}

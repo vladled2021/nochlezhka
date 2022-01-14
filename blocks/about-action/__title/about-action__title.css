@@ -1,0 +1,14 @@
+.about-action__title {
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 36px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 360.98px) {
+  .about-action__title {
+    font-size: 48px;
+    line-height: 52px;
+    max-width: 420px;
+  }
+}

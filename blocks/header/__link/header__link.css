@@ -1,0 +1,20 @@
+.header__link {
+  margin: 0;
+  width: auto;
+  background-color: rgba(0, 0, 0, 0);
+  justify-content: center;
+  align-items: center;
+  color: #3B3748;
+  text-decoration: none;
+  margin-left: auto;
+  padding: 12px 20px;
+  display: flex;
+}
+
+
+@media screen and (min-width: 768.98px) {
+  .header__link {
+    padding: 12px 24px;
+  }
+}
+

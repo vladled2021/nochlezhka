@@ -1,0 +1,12 @@
+.popup__donate-close-button-picture {
+  width: 20px;
+  height: 20px;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 768.98px) {
+  .popup__donate-close-button-picture {
+    width: 24px;
+    height: 24px;
+  }
+}
