@@ -1,0 +1,13 @@
+.error404__image-container {
+  width: 420px;
+  height: 305px;
+  margin: 0 0 0 40px;
+}
+
+@media screen and (max-width: 900px) {
+  .error404__image-container {
+    width: 320px;
+    height: 256px;
+    margin: 40px 20px 40px 0;
+  }
+}

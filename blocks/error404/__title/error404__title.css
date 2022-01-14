@@ -8,17 +8,13 @@
   margin: 58.5px auto 16px 0;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 900px) {
   .error404__title {
     font-size: 32px;
     line-height: 36px;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  .error404__title {
     margin: 0 auto 12px 0;
   }
 }
+
 
 

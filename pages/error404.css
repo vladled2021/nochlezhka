@@ -32,6 +32,7 @@
 @import url(../blocks/error404/__subcontainer/error404__subcontainer.css);
 @import url(../blocks/error404/__title/error404__title.css);
 @import url(../blocks/error404/__subtitle/error404__subtitle.css);
+@import url(../blocks/error404/__image-container/error404__image-container.css);
 @import url(../blocks/error404/__image/error404__image.css);
 @import url(../blocks/error404/__at-main-page-link/error404__at-main-page-link.css);
 
