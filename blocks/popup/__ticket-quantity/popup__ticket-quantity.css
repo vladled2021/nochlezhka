@@ -1,0 +1,37 @@
+.popup__ticket-quantity {
+  height: 44px;
+  width: 48px;
+  box-sizing: border-box;
+  padding: 0;
+  border: 0;
+  margin: 0;
+  background: transparent;
+  outline: 0;
+  text-align: center;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: normal;
+  color: #000;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.popup__ticket-quantity::-webkit-outer-spin-button,
+.popup__ticket-quantity::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.popup__ticket-quantity[type="number"] {
+  -moz-appearance: textfield;
+}
+
+@media screen and (min-width: 768.98px) {
+  .popup__ticket-quantity {
+    height: 48px;
+    width: 96px;
+
+    font-size: 18px;
+    line-height: 24px;
+  }
+}

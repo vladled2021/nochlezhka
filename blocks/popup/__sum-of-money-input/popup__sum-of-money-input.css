@@ -1,6 +1,6 @@
 .popup__sum-of-money-input {
   width: 100%;
-  border: 2px solid #96949E;
+  border: 2px solid #96949e;
   box-sizing: border-box;
   border-radius: 22px;
   padding: 12px 20px;
@@ -9,6 +9,18 @@
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
+  text-align: center;
+}
+
+.popup__sum-of-money-input::-webkit-outer-spin-button,
+.popup__sum-of-money-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.popup__sum-of-money-input[type="number"] {
+  -moz-appearance: textfield;
 }
 
 @media screen and (min-width: 768.98px) {

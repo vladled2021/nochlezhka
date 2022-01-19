@@ -1,0 +1,8 @@
+.content_place_form {
+  padding-bottom: 140px;
+  max-width: 1440px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}

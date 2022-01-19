@@ -1,0 +1,18 @@
+.thanks-page__description {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 24px;
+  color: #ffffff;
+  margin: 16px 0 24px;
+}
+@media screen and (max-width: 768px) {
+  .thanks-page__description {
+    margin: 12px 0 20px;
+  }
+}
+@media screen and (max-width: 525px) {
+  .thanks-page__description {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}

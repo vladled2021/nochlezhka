@@ -1,0 +1,7 @@
+.events__title_page-type_main-message {}
+
+@media screen and (max-width: 450px) {
+  .events__title_page-type_main-message {
+    max-width: 320px;
+  }
+}

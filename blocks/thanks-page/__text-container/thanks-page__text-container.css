@@ -1,0 +1,18 @@
+.thanks-page__text-container {
+  max-width: 420px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (max-width: 1024px) {
+  .thanks-page__text-container {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .thanks-page__text-container {
+    order: 2;
+    max-width: 320px;
+    margin: 40px auto;
+  }
+}

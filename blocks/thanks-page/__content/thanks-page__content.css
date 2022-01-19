@@ -1,0 +1,15 @@
+.thanks-page__content {
+  max-width: 880px;
+  width: 100%;
+  display: flex;
+  margin: 160px 0;
+  justify-content: space-between;
+}
+@media screen and (max-width: 768px) {
+  .thanks-page__content {
+    align-items: center;
+    flex-direction: column;
+    margin: 40px 0;
+    max-width: 360px;
+  }
+}

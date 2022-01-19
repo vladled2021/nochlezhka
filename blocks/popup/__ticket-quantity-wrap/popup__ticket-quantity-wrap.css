@@ -1,0 +1,12 @@
+.popup__ticket-quantity-wrap {
+  display: flex;
+  border-radius: 22px;
+  border: 2px solid #7100ff;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 768.98px) {
+  .popup__ticket-quantity-wrap {
+    display: flex;
+  }
+}

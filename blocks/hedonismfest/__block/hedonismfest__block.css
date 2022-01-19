@@ -1,3 +1,18 @@
 .hedonismfest__block {
-  padding: 0;
+  padding: 80px 60px 80px 40px;
+  /* width: 93%; */
+  display: block;
+}
+
+@media screen and (max-width: 1439px) {
+  .hedonismfest__block {
+    width: 79%;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  .hedonismfest__block {
+    padding: 40px 0;
+    width: 320px;
+  }
 }

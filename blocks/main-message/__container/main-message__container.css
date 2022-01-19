@@ -1,0 +1,21 @@
+.main-message__container {
+  display: flex;
+  padding: 160px 0;
+  margin: 0 auto;
+  max-width: 880px;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 1000px) {
+  .main-message__container {
+    margin-left: 20px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .main-message__container {
+    flex-direction: column-reverse;
+    padding: 0;
+    max-width: 320px;
+  }
+}

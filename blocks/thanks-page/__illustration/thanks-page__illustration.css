@@ -1,0 +1,10 @@
+.thanks-page__illustration {
+ max-width: 420px;
+ width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .thanks-page__illustration {
+    max-width: 320px;
+    order: 1;
+  }
+}

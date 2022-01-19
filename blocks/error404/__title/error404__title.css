@@ -6,6 +6,7 @@
   line-height: 52px;
   color: #3B3748;
   margin: 58.5px auto 16px 0;
+  letter-spacing: -0.01em;
 }
 
 @media screen and (max-width: 900px) {

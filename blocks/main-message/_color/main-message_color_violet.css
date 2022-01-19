@@ -1,0 +1,6 @@
+.main-message_color_violet {
+  background-color: #7100FF;
+  color: #FFFFFF;
+  --main-message-bg-color: #7100FF;
+  --main-message-color: #FFFFFF;
+}

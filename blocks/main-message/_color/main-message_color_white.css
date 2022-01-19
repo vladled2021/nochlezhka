@@ -1,0 +1,6 @@
+.main-message_color_white {
+  background-color: #FCFAF7;
+  color: #3B3748;
+  --main-message-bg-color: #FCFAF7;
+  --main-message-color: #3B3748;
+}

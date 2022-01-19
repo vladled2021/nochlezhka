@@ -1,0 +1,12 @@
+.main-message__title {
+  font-size: 48px;
+  line-height: 52px;
+}
+
+@media screen and (max-width: 900px) {
+  .main-message__title {
+    font-size: 32px;
+    line-height: 36px;
+    margin: 0 auto 12px 0;
+  }
+}

@@ -1,0 +1,7 @@
+.main-message {
+  display: flex;
+  width: 100%;
+  font-family: TT_Firs_Neue;
+  font-style: normal;
+  font-weight: 500;
+}

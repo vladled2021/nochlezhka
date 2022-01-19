@@ -1,0 +1,9 @@
+.main-message__image_mirrored {
+  transform: scale(-1, 1);
+}
+
+@media screen and (max-width: 900px) {
+  .main-message__image_mirrored {
+    transform: scale(1, 1);
+  }
+}

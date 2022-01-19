@@ -1,0 +1,12 @@
+.popup__ticket-label {
+  display: flex;
+  justify-content: space-between;
+  max-width: 320px;
+  margin: auto;
+}
+
+@media screen and (min-width: 768.98px) {
+  .popup__ticket-label {
+    max-width: 532px;
+  }
+}
