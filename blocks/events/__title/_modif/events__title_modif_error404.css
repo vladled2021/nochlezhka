@@ -1,4 +1,6 @@
-.events__title_modif_error404 {}
+.events__title_modif_error404 {
+  letter-spacing: -0.01em;
+}
 
 
 @media screen and (max-width: 700px) {
